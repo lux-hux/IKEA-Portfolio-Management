@@ -3,7 +3,7 @@
 **Explanation**
 
 Answering the question, how would a retail investor perform who invested in a randomly selected, equally-weighted portfolio of companies and held the portfolio without rebalancing? 
-Compared to investing through a retail fund, the strategy benefits from avoiding CG tax drag and avoiding management fees.
+Compared to investing through a retail fund, the strategy benefits from avoiding CG tax drag and management fees.
 
 **portfolio_sd.py**
 
