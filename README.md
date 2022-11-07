@@ -8,8 +8,8 @@ Compared to investing through a retail fund, the strategy benefits from avoiding
 **portfolio_sd.py**
 
 Retail investors are limited in the number of individual securities they
-can directly hold because as the number of portfolio holdings 
-increases, so does the cost of brokerage as a proportion of their total 
+can directly hold because as portfolio holdings 
+increase, so does the cost of brokerage as a proportion of their total 
 investment. One of the benefits of investing through a fund is that it makes holding
  hundreds or even thousands of securities relatively inexpensive. Studies have shown, however, that investors gain most of the diversification benefit with a relatively small number of holdings. 
 
