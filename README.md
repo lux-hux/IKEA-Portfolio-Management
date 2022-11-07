@@ -17,8 +17,8 @@ investment. One of the benefits of investing through a fund is that it makes hol
 
 **portfolio_returns.py**
 
-Investing through a retail fund comes with cost that 
+Investing through a retail fund comes with a cost that 
 potentially outweigh the benefits of increased diversification and 
-convenience. Looking at historic fund statements, I calculate the annual average realised capital gains tax as a percent of investment value to be ~1.21%. Conservatively, assuming that all the capital gains distributed to fund holders are eligible for the 12 month holding period discount and a marginal tax rate of 32.5%, fund holders are subject to 20 bps of tax drag each year. Management fees subtract an additional 7 to 13 bps. The costs are not significant, but do begin to weigh on total return over a sufficient time horizon.
+convenience. Looking at historic fund statements, I calculate the annual average realised capital gains tax as a percent of investment value to be ~1.21%. Conservatively, assuming that all the capital gains distributed to fund holders are eligible for the 12 month holding period discount and a marginal tax rate of 32.5%, fund holders are subject to 20 bps of tax drag each year. Management fees subtract an additional 7 to 13 bps. The costs are not significant, but do begin to weigh on total return over an extended investment horizon.
 
 ![](image2.png)
