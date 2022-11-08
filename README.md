@@ -10,11 +10,15 @@ The results below are generated using Python with data sets webscraped from Yaho
 
 Retail investors are limited in the number of individual securities they can directly hold because as portfolio holdings increase, so does the cost of brokerage as a proportion of their total investment. One of the benefits of investing through a fund is that it makes holding hundreds or even thousands of securities relatively inexpensive. However, investors gain most of the diversification benefit with a relatively small number of portfolio holdings. 
 
+I calculated the standard deviations for fifty random samples of each number of holdings in the portfolio. Increasing the portfolio size from one to thirty holdings markedly reduces standard deviation, but additional holdings thereafter has a diminishing marginal benefit. 
+
 ![](image1.png)
 
 **Results from portfolio_returns.py**
 
 Investing through a retail fund comes with a cost that potentially outweigh the benefits of increased diversification and 
 convenience. Looking at historic fund statements, I calculate the annual average realised capital gains tax as a percent of investment value to be ~1.21%. Conservatively, assuming that all the capital gains distributed to fund holders are eligible for the 12 month holding period discount and a marginal tax rate of 32.5%, fund holders are subject to 20 bps of tax drag each year. Management fees subtract an additional 7 to 13 bps. The costs are not significant, but do begin to weigh on total return over an extended investment horizon. 
+
+Given the results of the previous analysis, I used a portfolio size of thirty as it captures most of the diversification benefit. I then calculated the total ten year return for three hundred random samples. In the results pictured, 73% of the portfolios outperformed the Australian index fund but with significant active risk, as seen in all the portfolios having a higher standard deviation than the index. 
 
 ![](image2.png)
