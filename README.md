@@ -10,15 +10,16 @@ I generated the results using Python with data sets web scraped from Yahoo Finan
 
 Retail investors are limited in the number of individual securities they can directly hold because as portfolio holdings increase, so does the cost of brokerage as a proportion of their total investment. One of the benefits of investing through a fund is that it makes holding hundreds or even thousands of securities relatively inexpensive. However, investors gain most of the diversification benefit with a relatively small portfolio. 
 
-I calculated the standard deviations for fifty random samples of each number of holdings in the portfolio. Increasing the portfolio size from one to thirty holdings markedly reduces standard deviation, but adding additional holdings thereafter has a diminishing marginal reduction.
-
+I calculated the standard deviations for fifty random samples of each number of holdings in the portfolio. Increasing the portfolio size from one to thirty holdings markedly reduces standard deviation, but adding additional holdings thereafter only slightly reduces risk. 
 
 ![](image1.png)
 
 **Results from portfolio_returns.py**
 
-Investing through a retail fund comes with a cost that potentially outweighs the benefits of increased diversification and convenience. Looking at historic fund statements, I calculate the average annual realised capital gains tax as a percent of investment value to be ~1.21%. Assuming that all the capital gains distributed to fund holders are eligible for the 12-month holding period discount and a marginal tax rate of 32.5%, fund holders are subject to 20 bps of tax drag each year. Management fees subtract an additional 7 to 30 bps. For a comparison portfolio, I used an index fund with a combined tax and management fee drag of 30 bps. 
+I next evaluated the ten-year return for 300 simulations of an equal-weight portfolio.  Given the results of the previous analysis, I used a portfolio size of thirty for each portfolio as it captures most of the diversification benefit and is still implementable by a retail investor. 
 
-Given the results of the previous analysis, I used a portfolio size of thirty for each equal-weight portfolio as it captures most of the diversification benefit and is still manageable for a retail investor. I then calculated the total ten-year return for three hundred random samples. In the results pictured, 73% of the portfolios outperformed the Australian index fund but with significant active risk. 
+For a comparison portfolio, I chose an Australian equities index fund. Looking at historic fund statements, I calculate the average annual realised capital gains tax as a percent of investment value to be ~1.21%. Assuming that all the capital gains distributed to fund holders are eligible for the 12-month holding period discount and a marginal tax rate of 32.5%, fund holders are subject to 20 bps of tax drag each year. I, therefore, subtracted 1.67 bp from each monthly return of the comparison portfolio. 
+
+In the results pictured, 73% of the portfolios outperformed the Australian index fund but with significant active risk. 
 
 ![](image2.png)
