@@ -16,7 +16,7 @@ I calculated the standard deviations for fifty random samples of each number of 
 
 **Results from portfolio_returns.py**
 
-I next evaluated the ten-year return for 300 simulations of an equal-weight portfolio.  Given the results of the previous analysis, I used a portfolio size of thirty for each portfolio as it captures most of the diversification benefit and is still implementable by a retail investor. 
+I next evaluated the 10 year return for 300 simulations of an equal-weight portfolio.  Given the results of the previous analysis, I used a portfolio size of thirty for each portfolio as it captures most of the diversification benefit and is still implementable by a retail investor. 
 
 For a comparison portfolio, I chose an Australian equities index fund. Looking at historic fund statements, I calculate the average annual realised capital gains tax as a percent of investment value to be ~1.21%. Assuming that all the capital gains distributed to fund holders are eligible for the 12-month holding period discount and a marginal tax rate of 32.5%, fund holders are subject to 20 bps of tax drag each year. I, therefore, subtracted 1.67 bp from each monthly return of the comparison portfolio. 
 
