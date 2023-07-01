@@ -2,7 +2,7 @@
 
 **Explanation**
 
-Answering the question: compared to an index fund ETF, how would a retail investor perform who invested in a randomly selected, equal-weighted portfolio of Australian companies and held the portfolio without rebalancing? Compared to investing through an index fund which sells holdings to rebalance to the index weights, the strategy benefits from avoiding capital gains tax until the end of the investment. In addition, there are no management fees paid on the portfolio.
+Answering the question: compared to an index fund ETF, how would a retail investor perform who invested in a randomly selected, equal-weight portfolio of Australian companies and held the portfolio without rebalancing? Compared to investing through an index fund which sells holdings to rebalance to the index weights, the strategy benefits from avoiding capital gains tax until the end of the investment. In addition, there are no management fees paid on the portfolio.
 
 I generated the results using Python with data sets web scraped from Yahoo Finance (security prices) and Trading Economics (market capitalisations). I used the market capitalisations to restrict the investable universe to securities larger than 700m at the beginning of the analysed period. This filtering reduces backfill bias in the Yahoo Finance dataset and the tendency for equal-weight portfolios to tilt toward the size risk factor.
 
